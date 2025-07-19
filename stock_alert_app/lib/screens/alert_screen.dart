@@ -20,19 +20,19 @@ class _AlertScreenState extends State<AlertScreen> {
   double threshold = 5.0;
 
   List<StockAlert> alerts = [];
-
   final List<String> nseStocks = [
-    'TCS.NSE',
-    'RELIANCE.NSE',
-    'INFY.NSE',
-    'WIPRO.NSE',
-    'HDFCBANK.NSE',
-    'ICICIBANK.NSE',
-    'SBIN.NSE',
-    'HCLTECH.NSE',
-    'ITC.NSE',
-    'LT.NSE',
+    'AAPL', // Apple
+    'GOOG', // Alphabet
+    'MSFT', // Microsoft
+    'TSLA', // Tesla
+    'AMZN', // Amazon
+    'META', // Meta
+    'NFLX', // Netflix
+    'NVDA', // Nvidia
+    'IBM', // IBM
+    'ORCL', // Oracle
   ];
+
 
   void _saveAlert() {
     if (_formKey.currentState!.validate()) {

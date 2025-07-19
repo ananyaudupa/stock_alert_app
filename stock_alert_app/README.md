@@ -1,16 +1,56 @@
-# stock_alert_app
+# Stock Alert App
 
-A new Flutter project.
+A Flutter application for monitoring stock prices and receiving alerts.
+
+## Overview
+
+This app allows users to track stock prices and set alerts for specific price points. When a stock reaches the alert price, the user is notified.
+
+## Features
+
+- View a list of stocks with current prices.
+- Set alerts for specific stocks.
+- Receive notifications when stock prices hit alert thresholds.
+- Simple and intuitive user interface.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed. See [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+- An IDE such as Android Studio, VS Code, or IntelliJ IDEA.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```
+   git clone https://github.com/ananyaudupa/stock_alert_app.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd stock_alert_app
+   ```
+3. Get the dependencies:
+   ```
+   flutter pub get
+   ```
+4. Run the app:
+   ```
+   flutter run
+   ```
+
+## Project Structure
+
+- `lib/main.dart`: Entry point of the application.
+- `lib/screens/alert_screen.dart`: Screen to view and manage stock alerts.
+- `lib/models/stock_alert.dart`: Data model for stock alerts.
+- `lib/services/stock_service.dart`: Service for fetching stock data.
+
+## Resources
+
+- [Flutter Documentation](https://flutter.dev/docs)
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
+
+## License
+
+This project is licensed under the MIT License.
