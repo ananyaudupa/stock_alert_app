@@ -12,9 +12,10 @@ dependencies:
   http: ^0.13.6
   flutter_typeahead: ^4.3.7
   flutter_keyboard_visibility: ^5.0.2
-  
+  shared_preferences: ^2.2.2
   cupertino_icons: ^1.0.8
-
+  audioplayers: ^5.2.1
+  uuid: ^4.2.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
